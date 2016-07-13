@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-FILE="/etc/prometheus-confd/prometheus.yml"
+FILE="/etc/prometheus-config/prometheus.yml"
 
 while [ ! -f "${FILE}" ]; do
   echo "waiting for ${FILE}"
