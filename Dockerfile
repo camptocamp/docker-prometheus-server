@@ -1,4 +1,4 @@
-FROM prom/prometheus:v1.1.3
+FROM prom/prometheus:v1.4.1
 MAINTAINER Marc Fournier <marc.fournier@camptocamp.com>
 
 COPY /docker-entrypoint.sh /
